@@ -1,0 +1,11 @@
+.title{
+    border-bottom: 1px solid rgba(189, 184, 184, 0.384);
+    
+}
+.PlumberStyle{
+    width: 300px;
+  height: 350px;  
+  padding: 10px;
+  border: 1px solid rgba(202, 195, 195, 0.774);
+  box-sizing: border-box;
+}

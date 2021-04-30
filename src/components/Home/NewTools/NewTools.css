@@ -1,0 +1,21 @@
+.imageTwo{
+    background-image: url(../../../img/plumberblog.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imageOne{
+    background-image: url(../../../img/plumberblog11.jpg);
+    background-position: center;
+    background-size: cover;
+    /* padding: 5px; */
+    /* margin: 2px; */
+}
+
+.styleTwo{
+    /* transform: translateX(-50%); */
+    margin: 5px;
+    padding: 5px;
+}
+.styleThree{
+   margin: 5px;
+}

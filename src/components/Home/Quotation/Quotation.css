@@ -1,0 +1,15 @@
+.divStyle{
+    background:linear-gradient( rgb(37 28 10 / 31%),rgb(47 95 24 / 89%)), url(../../../img/banner-bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+}
+.quote{
+    font-family: 'Krona One', sans-serif;
+}
+.buttonStyle:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-radius: 40px;
+    font-weight: bold;
+}
