@@ -1,11 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Navbar from '../../Home/Navbar/Navbar';
 import './Login.css';
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
-
+// import { useState } from 'react';
+import {UserContext} from '../../../App';
+import { useHistory, useLocation } from 'react-router';
 const Login = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const history = useHistory()
+    const location = useLocation()
+    let { from } = location.state || { from: { pathname: "/" } };
+
     if (!firebase.apps.length) {
         firebase.initializeApp(firebaseConfig);
     } else {
@@ -32,6 +39,8 @@ const Login = () => {
                     photoURl: photoURl
                 }
                 setUser(signedInUser);
+                setLoggedInUser(signedInUser)
+                history.replace(from);
                 console.log(displayName, email, photoURl)
 
             }).catch((error) => {

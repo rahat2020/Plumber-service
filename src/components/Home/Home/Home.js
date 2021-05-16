@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutPlumbers from '../AboutPlumbers/AboutPlumbers';
 import CompanyGoal from '../CompanyGoal/CompanyGoal';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import NewTools from '../NewTools/NewTools';
 import Quotation from '../Quotation/Quotation';
@@ -19,6 +20,7 @@ const Home = () => {
             <Quotation></Quotation>
             <Team></Team>
             <Testimonial></Testimonial>
+            <Footer></Footer>
         </div>
     );
 };

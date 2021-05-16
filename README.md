@@ -1,9 +1,4 @@
-themeforest example website link:- http://preview.themeforest.net/item/plumbros-plumber-service-html-template/full_screen_preview/23164534
-
-gallery template design example:- https://codepen.io/tjrogers82/pen/yrxqL?editors=1100
-
-
-
+project live link:- https://complete-website-two.web.app/
 
 Hello guy's!! welcome to complete website client and server project (Plumber service). In this project I' used npx-create-react to create react app to do this project.
 I have added so many features in this project. I had added bootstrap navigation bar so on and also hugely used bootstrap in this project as well.
