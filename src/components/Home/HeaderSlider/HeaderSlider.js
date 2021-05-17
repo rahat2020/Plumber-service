@@ -19,7 +19,7 @@ const HeaderSlider = () => {
                                         <a href="#" class="btn btn-warning color"> <i class="fas fa-shopping-cart"></i> Book now </a>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src={sliderOne} class="d-block w-100" alt="..." />
+                                        <img src={sliderOne} class="d-block w-100 shadow rounded"  alt="..." />
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ const HeaderSlider = () => {
                                         <a href="#" class="btn btn-warning color"> <i class="fas fa-shopping-cart"></i> Book now </a>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src={sliderTwo} class="d-block w-100" alt="..." />
+                                        <img src={sliderTwo} class="d-block w-100 shadow rounded" alt="..." />
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const HeaderSlider = () => {
                                         <a href="google.com" class="btn btn-warning color"> <i class="fas fa-shopping-cart"></i> Book now </a>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src={slideraThree} class="d-block w-100" alt="..." />
+                                        <img src={slideraThree} class="d-block w-100 shadow rounded" alt="..." />
                                     </div>
                                 </div>
                             </div>

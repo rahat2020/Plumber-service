@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
+    
     return (
         <div>
             <nav class="navbar navbar-light ">
@@ -23,6 +24,7 @@ const Navbar = () => {
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="find" tabindex="-1" aria-disabled="true" style={{fontFamily:'oswald', fontSize:'20px'}}>find</a>
                         </li>
+                       
                     </ul>
                 </div>
 

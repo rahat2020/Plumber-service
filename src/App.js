@@ -11,6 +11,8 @@ import AddProduct from './components/Dashboard/AddProduct/AddProduct';
 import AddReview from './components/Dashboard/AddReview/AddReview';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import { createContext, useState } from 'react';
+import Order from './components/MakeOrder/Order/Order';
+import CheckOut from './components/MakeOrder/ChcekOut/CheckOut';
 
 export const UserContext = createContext();
 function App() {
@@ -28,12 +30,18 @@ function App() {
           <PrivateRoute path="/dashboard">
               <Dashboard></Dashboard>
           </PrivateRoute>
-          <PrivateRoute path="/addProduct">
+          <Route path="/addProduct">
               <AddProduct></AddProduct>
-          </PrivateRoute>
-          <PrivateRoute path="/addReview">
+          </Route>
+          <Route path="/addReview">
               <AddReview></AddReview>
-          </PrivateRoute>
+          </Route>
+          <Route path="/checkout/:_id">
+              <CheckOut></CheckOut>
+          </Route>
+          <Route path="/order/:_id">
+              <Order></Order>
+          </Route>
         </Switch>
     </Router>
     </UserContext.Provider>
